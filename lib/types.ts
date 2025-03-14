@@ -143,3 +143,15 @@ export interface OrderDetailsData {
   items: OrderItem[];
   totalAmount: number;
 }
+
+export interface AppointmentSlot {
+  date: string;
+  time: string;
+  dentist: string;
+}
+
+export interface BookingParameters {
+  date: string;
+  time: string;
+  dentist: string;
+}
